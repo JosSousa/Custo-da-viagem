@@ -1,0 +1,22 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 4px;
+}
